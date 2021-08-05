@@ -6,6 +6,7 @@ import LiveAnyWhereCard from "../components/LiveAnyWhereCard";
 import HostingCard from "../components/HostingCard";
 import GreatestOutCard from "../components/GreatestOutCard";
 import DiscoverExcpCard from "../components/DiscoverExcpCard";
+import Footer from "../components/Footer";
 export default function Home({
   exploreCardData,
   liveAnyWhereCardData,
@@ -77,6 +78,7 @@ export default function Home({
           buttonText="Learn more"
         />
       </main>
+      <Footer/>
     </div>
   );
 }
