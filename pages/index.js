@@ -59,7 +59,7 @@ export default function Home({
               Unique activities with local experts – in person or online.
             </h2>
           </div>
-          <div className="flex space-x-3 overflow-scroll scrollbar-hide p-10 -ml-3 ">
+          <div className="flex overflow-scroll scrollbar-hide p-3 space-x-9 ">
             {discoverExpCard?.map((item) => (
               <DiscoverExcpCard
                 key={item.title}

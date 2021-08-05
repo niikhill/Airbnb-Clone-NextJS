@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 function DiscoverExcpCard({ img, title, desc }) {
   return (
-    <div className="cursor-pointer hover:scale-105 transition transform duration-300 ease-out">
-      <div className="relative h-96 w-96">
+    <div className="hover:scale-105 transition transform duration-300 ease-out cursor-pointer">
+      <div className="relative h-[18rem] w-[18rem] md:h-[22rem] md:w-[26rem] mb-5">
         <Image
           className="rounded-xl"
           src={img}
