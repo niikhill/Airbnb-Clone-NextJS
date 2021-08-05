@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Banner() {
   return (
-    <div className="relative h-[300px] sm:h-[400px] lg:h-[200px] xl:h-[600px] 2xl:h-[700px]">
+    <div className="relative h-[300px] md:h-[32rem]">
       <Image
         src="https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg"
         layout="fill"
