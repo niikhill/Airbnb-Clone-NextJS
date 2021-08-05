@@ -24,7 +24,7 @@ function Header() {
         <input
           type="text"
           placeholder="Start your search"
-          className=" flex-grow pl-5 bg-transparent outline-none text-md text-black placeholder-black w-10 "
+          className=" flex-grow pl-2 bg-transparent outline-none text-xs text-black placeholder-black w-10 "
         />
         <SearchIcon className="hidden md:inline-flex h-8 bg-[#FF385C] text-white rounded-full p-2 cursor-pointer md:mx-2  " />
       </div>
