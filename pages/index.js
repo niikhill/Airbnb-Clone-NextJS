@@ -59,8 +59,7 @@ export default function Home({
               Unique activities with local experts – in person or online.
             </h2>
           </div>
-
-          <div className="flex  space-x-14 px-10 ">
+          <div className="flex space-x-3 overflow-scroll scrollbar-hide p-10 -ml-3 ">
             {discoverExpCard?.map((item) => (
               <DiscoverExcpCard
                 key={item.title}
@@ -78,7 +77,7 @@ export default function Home({
           buttonText="Learn more"
         />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
